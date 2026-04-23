@@ -2,6 +2,7 @@
 body {
     font-family: Arial;
     margin: 0;
+    
 }
 
 nav {
@@ -9,7 +10,7 @@ nav {
     justify-content: space-between;
     background: #333;
     color: white;
-    padding: 10px;
+    padding: 20px 40px;
 }
 
 nav a {
@@ -17,21 +18,27 @@ nav a {
     margin-left: 15px;
     text-decoration: none;
 }
+.hero{
+    padding: 10px 20px;
+}
+
 
 .container {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    margin: 90px;
 }
 
 .container img {
-    width: 800px;
+    width: 400px;
     height: 400;
-    margin-right: 600px;
+    
 }
 
 h1 span {
     color:pink;
+     
 }
 
 .lee{
@@ -39,7 +46,8 @@ h1 span {
 }
 
 .section {
-    padding: 20px;
+    padding: margin right;
+    
 }
 
 .projects {

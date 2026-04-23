@@ -1,82 +1,61 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Page</title>
-    <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-        }
-
-        
-        nav {
-            background: #333;
-            color: white;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        nav a {
-            color: white;
-            margin: 10px;
-            text-decoration: none;
-        }
-
-        
-        .container {
-            display: flex;
-            align-items: center;
-            padding: 20px;
-        }
-
-        img {
-            width: 300px;
-            margin-right: 20px;
-        }
-
-        h1 span {
-            color: pink; /* Lee color */
-        }
-
-        button {
-            padding: 10px 15px;
-            background: goldenrod;
-            color: white;
-            border: none;
-            margin-top: 10px;
-        }
-    </style>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    
-    <nav>
-        <div>Name</div>
-        <div>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </div>
-    </nav>
 
-    
-    <div class="container">
-        <img src="asian-girl-ai-art-3840x2160-16586.jpg" alt="image">
-
-        <div>
-            <h1>Hello, am  <span>Lee</span></h1>
-            <p>God's favourite.</p>
-            <button>Let's Connect</button>
-        </div>
+<nav>
+    <div class="logo">Let</div>
+    <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </div>
+</nav>
+
+<section id="home" class="container">
+    <div>
+    <img src="download.jpg">
+
+    </div>
+    
+    <div class = "hero"> 
+        <h1>Hello i am <span class="lee">Lee</span></h1>
+    
+        <p>I build simple and clean websites.</p>
+        <button>Let's Connect</button>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>i am a creative designer and beginner web developer with skills in HTML.I enjoy building simple,clean and user friendly websites while improving my design and coding abilities.I am passionate about learning new technologies and growing my skills to create better digital experiences</p>
+</section>
+
+
+<section id="projects" class="section">
+    <h2>My Projects</h2>
+    <div class="projects">
+        <div class= "card">Project 
+            <img src="c:\Users\HomePC\Downloads\Wireframe sketches of a meal app.png" alt="Smart" width="300" height="300">
+        </div>
+        <div class="card">Project 2
+            <p></p>
+        </div>
+        <div class="card">Project 3</div>
+    </div>
+</section>
+
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: example@gmail.com</p>
+    <p>phone : <a href="tel:+263 774824411">0774824411</a> </p>
+</section>
 
 </body>
 </html>
-
-
-
-
-
